@@ -1,0 +1,40 @@
+.linkHomePage, .linkAboutPage{
+    color:#FF6060;
+    text-decoration: none;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
+.linkHomePage:focus, .linkAboutPage:focus{
+    text-decoration-line: underline;
+}
+header{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: auto;
+    height: 3rem;
+    padding: 4rem;
+}
+@media screen and (max-width: 650px) {
+    .linkAboutPage {
+        padding-right: 2rem;
+    }
+
+    .linkHomePage {
+        padding-right: 1rem;
+    }
+    .linkHomePage, .linkAboutPage{
+        font-size: .75rem;
+        margin: 0;
+    }
+    .logo{
+        padding: 2rem;
+        max-width: 150px
+    }
+}

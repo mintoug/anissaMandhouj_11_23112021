@@ -1,0 +1,13 @@
+@import '../../components/collaps/Collaps.css';
+@import '../../components/heroAboutPage/HeroAboutPage.css';
+
+@media (min-width : 651px) and (max-width : 1200px) { 
+    .about .collapsibleArticle {
+        margin-left: 4rem;
+        margin-right : 4rem;
+    }
+
+    .collapsibleArticle .collapsibleVisible {
+        width: 100%;
+    }
+}

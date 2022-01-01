@@ -1,0 +1,38 @@
+.apartmentImgHost {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.apartmentNameHost {
+    font-size: 1.125rem;
+    color: #FF6060;
+    font-weight: 700;
+    margin: 0 1rem 0 0;
+}
+
+.apartmentProfil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentImgHost {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .apartmentNameHost {
+        font-size: .75rem;
+    }
+
+    .apartmentProfil {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        right: 2rem;
+        top: 32rem;
+    }
+}

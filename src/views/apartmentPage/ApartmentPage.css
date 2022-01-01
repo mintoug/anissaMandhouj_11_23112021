@@ -1,0 +1,103 @@
+@import '../../components/slides/Slides.css';
+@import '../../components/rating/Rating.css';
+@import '../../components/title/Title.css';
+@import '../../components/local/Local.css';
+@import '../../components/profil/Profil.css';
+@import '../../components/tag/Tag.css';
+@import '../../components/collaps/Collaps.css';
+ 
+
+.apartmentBox {
+    max-width: calc(100%-16rem);
+    margin: 0 4rem 0 0;
+}
+
+.apartmentBoxAside {
+    width: 12rem;
+}
+
+.apartmentCollapsible {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+.apartmentCollapsible .collapsibleVisible,
+.apartmentCollapsible .collapsibleContent {
+    width: 42rem;
+    padding: 0;
+}
+
+.apartmentInformations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+}
+
+.apartmentRatings {
+    text-align: right;
+    margin: 1.5rem 0 0;
+}
+
+.apartmentTagsBox {
+    margin: 1rem 0 0;
+    display: flex;
+}
+@media screen and (max-width: 650px) {
+    .apartmentBox {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .apartmentBoxAside{
+        margin-top: 1rem;
+    }
+    .apartmentCollapsible {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .apartmentCollapsible .collapsibleArticle {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .apartmentCollapsible .collapsibleVisible,
+    .apartmentCollapsible .collapsibleContent {
+        width: 20.9375rem;
+    }
+
+    .apartmentInformations {
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    .apartmentRatings {
+        width: 80%;
+        text-align: left;
+    }
+
+    .apartmentTagsBox {
+        display: flex;
+    }
+}
+
+@media (max-width: 1300px) { 
+    .apartmentCollapsible {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .apartmentCollapsible .collapsibleArticle {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}

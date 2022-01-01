@@ -1,0 +1,31 @@
+.aboutHero {
+    position: relative;
+    margin: 0 4rem;
+}
+
+.aboutHeroImg {
+    width: 100%;
+    height: 13.9rem;
+    object-fit: cover;
+    border-radius: 1.5625rem;
+}
+
+.aboutHeroWrapper {
+    height: 13.9rem;
+    border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .aboutHero {
+        margin: 0 1rem;
+    }
+
+    .aboutHeroImg,
+    .aboutHeroWrapper {
+        border-radius: 10px;
+    }
+}

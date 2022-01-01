@@ -1,0 +1,38 @@
+.error404 {
+    text-align: center;
+}
+
+.errorLinkToHome {
+    display: inline-block;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    margin: 5rem 0;
+}
+
+.errorCode {
+    font-size: 18rem;
+    font-weight: 700;
+    margin: 5rem 0 4rem;
+}
+
+.errorCode,
+.errorTxt,
+.errorLinkToHome {
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .errorLinkToHome {
+        font-size: .875rem;
+        margin: 4rem 0;
+    }
+
+    .errorCode {
+        font-size: 6rem;
+        margin: 5rem 0 1rem;
+    }
+
+    .errorTxt {
+        font-size: 1.125rem;
+    }
+}
