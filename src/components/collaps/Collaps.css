@@ -28,11 +28,12 @@
     padding: .7rem 1rem;
 }
 
-.collapsibleVisible>.fa-chevron-down {
+.collapsibleVisible>.fa-chevron-down,
+.collapsibleVisible>.fa-chevron-up  {
     color: white;
     cursor: pointer;
     font-size: 1.5rem;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem;
 }
 
 .collapsibleContent {

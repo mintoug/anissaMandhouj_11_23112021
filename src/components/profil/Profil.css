@@ -25,7 +25,7 @@
     }
 
     .apartmentNameHost {
-        font-size: .75rem;
+        font-size: 1rem;
     }
 
     .apartmentProfil {
@@ -34,5 +34,6 @@
         justify-content: flex-end;
         right: 2rem;
         top: 32rem;
+        max-width: 5rem;
     }
 }

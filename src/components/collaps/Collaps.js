@@ -5,24 +5,27 @@ export default class Collaps extends Component {
     state = {
         show : false,
         className: 'isClose',
+        direction:'up'
     }
 
     showContent = () => {
         this.setState({
-            show : !this.state.show
+            show : !this.state.show,
+            direction : 'down'
         })
         this.state.show? this.setState({ className: 'isClose' }): this.setState({ className: 'isOpen' })
     }
+        
 
     getCollapsibleVisible = () => {
         return (
             <div className={`collapsibleVisible ${this.state.className}`} onClick={this.showContent}>
                 <h3>{this.props.title}</h3>
-                <i className="fas fa-chevron-down"></i>
+               <i className={`fas fa-chevron-${this.state.direction}`}></i>
             </div>
         )
     }
-
+    
     getCollapsibleContent = () => {
         if (Array.isArray(this.props.content)) {
             return (

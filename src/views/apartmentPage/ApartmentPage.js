@@ -20,8 +20,7 @@ import { Redirect } from "react-router-dom";
         const apartment = this.props.apartments.filter(
             (apt) => apt.id === this.props.match.params.id
         )
-
-        return apartment[0]
+            return apartment[0]
     }
 
     getTags = () => {
