@@ -4,6 +4,7 @@
     border-radius: .4rem;
     color: #fff;
     background: #FF6060;
+    white-space: nowrap;
     font-size: 1.125rem;
     font-weight: 700;
     margin: .25rem 1rem .25rem 0;
