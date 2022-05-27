@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mintoug.github.io/anissaMandhouj_11_23112021/static/css/main.77d26dd3.chunk.css",
+    "main.js": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/main.6a69a0df.chunk.js",
+    "main.js.map": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/main.6a69a0df.chunk.js.map",
+    "runtime-main.js": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/runtime-main.3cfdfa71.js",
+    "runtime-main.js.map": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/runtime-main.3cfdfa71.js.map",
+    "static/js/2.4c1e5807.chunk.js": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/2.4c1e5807.chunk.js",
+    "static/js/2.4c1e5807.chunk.js.map": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/2.4c1e5807.chunk.js.map",
+    "index.html": "/mintoug.github.io/anissaMandhouj_11_23112021/index.html",
+    "static/css/main.77d26dd3.chunk.css.map": "/mintoug.github.io/anissaMandhouj_11_23112021/static/css/main.77d26dd3.chunk.css.map",
+    "static/js/2.4c1e5807.chunk.js.LICENSE.txt": "/mintoug.github.io/anissaMandhouj_11_23112021/static/js/2.4c1e5807.chunk.js.LICENSE.txt",
+    "static/media/HeroHome.024f945a.png": "/mintoug.github.io/anissaMandhouj_11_23112021/static/media/HeroHome.024f945a.png",
+    "static/media/heroAbout.02e1c4f7.png": "/mintoug.github.io/anissaMandhouj_11_23112021/static/media/heroAbout.02e1c4f7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cfdfa71.js",
+    "static/js/2.4c1e5807.chunk.js",
+    "static/css/main.77d26dd3.chunk.css",
+    "static/js/main.6a69a0df.chunk.js"
+  ]
+}
